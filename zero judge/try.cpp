@@ -1,15 +1,12 @@
 #include <iostream>
 #include <string>
-#include <bitset>
+using namespace std;
  
 int main()
 {
-    unsigned int decimal = 15;
-    const int n = 8;
- 
-    std::string binary = std::bitset<n>(decimal).to_string();
- 
-    std::cout << binary << std::endl;
- 
+    
+    string str;
+    cout << (char('a' + 1)) << endl;
+
     return 0;
 }
